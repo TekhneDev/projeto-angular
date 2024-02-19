@@ -19,6 +19,8 @@ import { Componente2Component } from './componente2/componente2.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { InicioComponent } from './inicio/inicio.component';
 import { LoginComponent } from './login/login.component';
+import { MenuComponent } from './menu/menu.component';
+import { RodapeComponent } from './rodape/rodape.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { LoginComponent } from './login/login.component';
     Componente1Component,
     Componente2Component,
     InicioComponent,
-    LoginComponent
+    LoginComponent,
+    MenuComponent,
+    RodapeComponent
   ],
   imports: [
     BrowserModule,
